@@ -1,0 +1,30 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+  ],
+  "jsRules": {},
+  "rules": {
+    "indent": [true, "spaces", 2],
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "interface-name": [true, "never-prefix"],
+    "no-console": false,
+    "semicolon": [true, "always", "ignore-bound-class-methods"],
+    "member-access": false,
+    "max-classes-per-file": false,
+    "trailing-comma": [true, {"multiline": "always"}],
+    "member-ordering": false,
+    "arrow-parens": [true, "always"],
+    "jsx-no-lambda": false,
+    "jsx-no-multiline-js": false,
+    "jsdoc-format": false,
+    "variable-name": false,
+    "no-shadowed-variable": false,
+    "no-empty": false,
+    "switch-default": false,
+    "object-literal-shorthand": false,
+    "no-unused-variable": [true, {"ignore-pattern": "^React"}]
+  },
+  "rulesDirectory": []
+}
