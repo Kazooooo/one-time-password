@@ -1,3 +1,5 @@
 functions/node_modules
 functions/lib
 service_account.ts
+.vscode
+functions/src/constants/secure
